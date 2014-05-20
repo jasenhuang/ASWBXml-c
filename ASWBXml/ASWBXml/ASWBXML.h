@@ -63,11 +63,11 @@ namespace ASWBXML {
         ~ CASWBXML();
         
         static std::string WB2XML(unsigned char* byteWBXML ,unsigned int len);
-        static void XML2WB(std::string& strXML,unsigned char ** bytes ,unsigned int* len);
+        static void XML2WB(const std::string& strXML,unsigned char ** bytes ,unsigned int* len);
         
         /*load*/
-        void LoadXmlFromFile(std::string &strFilename);
-        void LoadXml(std::string& strXML);
+        void LoadXmlFromFile(const std::string &strFilename);
+        void LoadXml(const std::string& strXML);
         void LoadXml(TiXmlDocument& doc);
         std::string GetXml();
         
