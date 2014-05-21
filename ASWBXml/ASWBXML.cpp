@@ -1037,7 +1037,7 @@ void CASWBXML::EncodeNode(TiXmlElement * node , std::vector<unsigned char> & byt
         {
             ParseXmlnsAttributes(node);
             
-            std::string tagName = node->Value();//tag name
+            std::string tagName = node->ValueStr();//tag name
             std::vector<std::string> array;
             ASUtils::Split(tagName, ':', array);
             
@@ -1072,11 +1072,11 @@ void CASWBXML::EncodeNode(TiXmlElement * node , std::vector<unsigned char> & byt
         {
             if (((TiXmlText *)node)->CDATA()) {
                 byteList.push_back((unsigned char)OPAQUE);
-                std::string text = node->Value();
+                std::string text = node->ValueStr();
                 this->EncodeOpaque(text, byteList);
             }else{
                 byteList.push_back((unsigned char)STR_I);
-                std::string text = node->Value();
+                std::string text = node->ValueStr();
                 this->EncodeString(text, byteList);
             }
             break;
@@ -1135,7 +1135,7 @@ void CASWBXML::ParseXmlnsAttributes(TiXmlElement * node)
 {
     TiXmlAttribute* attr =  node->FirstAttribute();
     for (; attr; attr = attr->Next()) {
-        std::string nameSpace = attr->Value();
+        std::string nameSpace = attr->ValueStr();
         int codePage = GetCodePageByNamespace(nameSpace);
         
         std::vector<std::string> array;
