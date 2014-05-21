@@ -841,7 +841,7 @@ void CASWBXML::LoadXml(std::string& strXML)
     }
     xmlDoc = new TiXmlDocument();
     xmlDoc->Parse((const char*)strXML.c_str(), 0, TIXML_ENCODING_UTF8);
-    xmlDoc->Print();
+//    xmlDoc->Print();
 }
 void CASWBXML::LoadXml(TiXmlDocument& doc)
 {
@@ -849,12 +849,13 @@ void CASWBXML::LoadXml(TiXmlDocument& doc)
         delete xmlDoc;
     }
     xmlDoc = new TiXmlDocument(doc);
-    xmlDoc->Print();
+//    xmlDoc->Print();
 }
 std::string CASWBXML::GetXml()
 {
     std::string xml = "";
     if (xmlDoc != NULL){
+        //xmlDoc->Print();
         TiXmlPrinter printer;
         printer.SetIndent("\t");
         xmlDoc->Accept(&printer);

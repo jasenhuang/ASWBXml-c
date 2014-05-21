@@ -4,7 +4,17 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>ASWBXml.xcscheme</key>
+		<key>ASWBXML.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+		<key>ASWBXml-lib.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>wbxml.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,12 +22,47 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>553A0F101859BD980049A6A3</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>554C23771883A88E00523B50</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>55840FF31883AA6A00914DA7</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>55A0F39F1883A83100AF8ECA</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>55A632F3180BF687005D5B63</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
 		<key>55A6330E180BF687005D5B63</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>55A9EAEB1883A0EF00ED0C98</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>55A9EAF81883A14900ED0C98</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>55A9EB1D1883A5D000ED0C98</key>
 		<dict>
 			<key>primary</key>
 			<true/>

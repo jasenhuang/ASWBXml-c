@@ -7,92 +7,80 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		55A632F8180BF687005D5B63 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55A632F7180BF687005D5B63 /* Foundation.framework */; };
-		55A632FA180BF687005D5B63 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55A632F9180BF687005D5B63 /* CoreGraphics.framework */; };
-		55A632FC180BF687005D5B63 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55A632FB180BF687005D5B63 /* UIKit.framework */; };
-		55A63302180BF687005D5B63 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 55A63300180BF687005D5B63 /* InfoPlist.strings */; };
-		55A63304180BF687005D5B63 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 55A63303180BF687005D5B63 /* main.m */; };
-		55A63308180BF687005D5B63 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 55A63307180BF687005D5B63 /* AppDelegate.m */; };
-		55A6330A180BF687005D5B63 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55A63309180BF687005D5B63 /* Images.xcassets */; };
-		55A63311180BF687005D5B63 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55A63310180BF687005D5B63 /* XCTest.framework */; };
-		55A63312180BF687005D5B63 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55A632F7180BF687005D5B63 /* Foundation.framework */; };
-		55A63313180BF687005D5B63 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55A632FB180BF687005D5B63 /* UIKit.framework */; };
-		55A6331B180BF687005D5B63 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 55A63319180BF687005D5B63 /* InfoPlist.strings */; };
-		55A6331D180BF687005D5B63 /* ASWBXmlTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 55A6331C180BF687005D5B63 /* ASWBXmlTests.m */; };
-		55A6333E180BF724005D5B63 /* FMWbxml.mm in Sources */ = {isa = PBXBuildFile; fileRef = 55A63338180BF724005D5B63 /* FMWbxml.mm */; };
-		55A6336E180E97A6005D5B63 /* ASUtils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 55A6335F180E97A6005D5B63 /* ASUtils.cpp */; };
-		55A6336F180E97A6005D5B63 /* ASWBXML.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 55A63361180E97A6005D5B63 /* ASWBXML.cpp */; };
-		55A63370180E97A6005D5B63 /* ASWBXMLByteQueue.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 55A63363180E97A6005D5B63 /* ASWBXMLByteQueue.cpp */; };
-		55A63371180E97A6005D5B63 /* ASWBXMLCodepage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 55A63365180E97A6005D5B63 /* ASWBXMLCodepage.cpp */; };
-		55A63372180E97A6005D5B63 /* tinystr.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 55A63368180E97A6005D5B63 /* tinystr.cpp */; };
-		55A63373180E97A6005D5B63 /* tinyxml.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 55A6336A180E97A6005D5B63 /* tinyxml.cpp */; };
-		55A63374180E97A6005D5B63 /* tinyxmlerror.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 55A6336C180E97A6005D5B63 /* tinyxmlerror.cpp */; };
-		55A63375180E97A6005D5B63 /* tinyxmlparser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 55A6336D180E97A6005D5B63 /* tinyxmlparser.cpp */; };
+		55840FF81883AA7900914DA7 /* ASUtils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 55A9EB461883A6A100ED0C98 /* ASUtils.cpp */; };
+		55840FF91883AA7900914DA7 /* ASWBXML.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 55A9EB481883A6A100ED0C98 /* ASWBXML.cpp */; };
+		55840FFA1883AA7900914DA7 /* ASWBXMLByteQueue.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 55A9EB4A1883A6A100ED0C98 /* ASWBXMLByteQueue.cpp */; };
+		55840FFB1883AA7900914DA7 /* ASWBXMLCodepage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 55A9EB4C1883A6A100ED0C98 /* ASWBXMLCodepage.cpp */; };
+		55840FFC1883AA7900914DA7 /* tinystr.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 55A9EB4F1883A6A100ED0C98 /* tinystr.cpp */; };
+		55840FFD1883AA7900914DA7 /* tinyxml.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 55A9EB511883A6A100ED0C98 /* tinyxml.cpp */; };
+		55840FFE1883AA7900914DA7 /* tinyxmlerror.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 55A9EB531883A6A100ED0C98 /* tinyxmlerror.cpp */; };
+		55840FFF1883AA7900914DA7 /* tinyxmlparser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 55A9EB541883A6A100ED0C98 /* tinyxmlparser.cpp */; };
+		558410021883AA8400914DA7 /* libASWBXml-lib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 55840FF41883AA6A00914DA7 /* libASWBXml-lib.a */; };
+		55A9EAFC1883A14900ED0C98 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 55A9EAFB1883A14900ED0C98 /* main.cpp */; };
+		55A9EAFE1883A14900ED0C98 /* wbxml.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 55A9EAFD1883A14900ED0C98 /* wbxml.1 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		55A63314180BF687005D5B63 /* PBXContainerItemProxy */ = {
+		558410001883AA8100914DA7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 55A632EC180BF687005D5B63 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 55A632F3180BF687005D5B63;
-			remoteInfo = ASWBXml;
+			remoteGlobalIDString = 55840FF31883AA6A00914DA7;
+			remoteInfo = "ASWBXml-lib";
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		55A9EAF71883A14900ED0C98 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1;
+			dstSubfolderSpec = 0;
+			files = (
+				55A9EAFE1883A14900ED0C98 /* wbxml.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
-		55A632F4180BF687005D5B63 /* ASWBXml.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ASWBXml.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		55840FF41883AA6A00914DA7 /* libASWBXml-lib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libASWBXml-lib.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		55A632F7180BF687005D5B63 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		55A632F9180BF687005D5B63 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		55A632FB180BF687005D5B63 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		55A632FF180BF687005D5B63 /* ASWBXml-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ASWBXml-Info.plist"; sourceTree = "<group>"; };
-		55A63301180BF687005D5B63 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		55A63303180BF687005D5B63 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		55A63305180BF687005D5B63 /* ASWBXml-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ASWBXml-Prefix.pch"; sourceTree = "<group>"; };
-		55A63306180BF687005D5B63 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		55A63307180BF687005D5B63 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		55A63309180BF687005D5B63 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		55A6330F180BF687005D5B63 /* ASWBXmlTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ASWBXmlTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		55A63310180BF687005D5B63 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		55A63318180BF687005D5B63 /* ASWBXmlTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ASWBXmlTests-Info.plist"; sourceTree = "<group>"; };
-		55A6331A180BF687005D5B63 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		55A6331C180BF687005D5B63 /* ASWBXmlTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ASWBXmlTests.m; sourceTree = "<group>"; };
-		55A63337180BF724005D5B63 /* FMWbxml.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMWbxml.h; sourceTree = "<group>"; };
-		55A63338180BF724005D5B63 /* FMWbxml.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = FMWbxml.mm; sourceTree = "<group>"; };
-		55A6335F180E97A6005D5B63 /* ASUtils.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ASUtils.cpp; sourceTree = "<group>"; };
-		55A63360180E97A6005D5B63 /* ASUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASUtils.h; sourceTree = "<group>"; };
-		55A63361180E97A6005D5B63 /* ASWBXML.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ASWBXML.cpp; sourceTree = "<group>"; };
-		55A63362180E97A6005D5B63 /* ASWBXML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASWBXML.h; sourceTree = "<group>"; };
-		55A63363180E97A6005D5B63 /* ASWBXMLByteQueue.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ASWBXMLByteQueue.cpp; sourceTree = "<group>"; };
-		55A63364180E97A6005D5B63 /* ASWBXMLByteQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASWBXMLByteQueue.h; sourceTree = "<group>"; };
-		55A63365180E97A6005D5B63 /* ASWBXMLCodepage.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ASWBXMLCodepage.cpp; sourceTree = "<group>"; };
-		55A63366180E97A6005D5B63 /* ASWBXMLCodepage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASWBXMLCodepage.h; sourceTree = "<group>"; };
-		55A63368180E97A6005D5B63 /* tinystr.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tinystr.cpp; sourceTree = "<group>"; };
-		55A63369180E97A6005D5B63 /* tinystr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tinystr.h; sourceTree = "<group>"; };
-		55A6336A180E97A6005D5B63 /* tinyxml.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tinyxml.cpp; sourceTree = "<group>"; };
-		55A6336B180E97A6005D5B63 /* tinyxml.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tinyxml.h; sourceTree = "<group>"; };
-		55A6336C180E97A6005D5B63 /* tinyxmlerror.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tinyxmlerror.cpp; sourceTree = "<group>"; };
-		55A6336D180E97A6005D5B63 /* tinyxmlparser.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tinyxmlparser.cpp; sourceTree = "<group>"; };
+		55A9EAF91883A14900ED0C98 /* wbxml */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = wbxml; sourceTree = BUILT_PRODUCTS_DIR; };
+		55A9EAFB1883A14900ED0C98 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		55A9EAFD1883A14900ED0C98 /* wbxml.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = wbxml.1; sourceTree = "<group>"; };
+		55A9EB461883A6A100ED0C98 /* ASUtils.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ASUtils.cpp; sourceTree = "<group>"; };
+		55A9EB471883A6A100ED0C98 /* ASUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASUtils.h; sourceTree = "<group>"; };
+		55A9EB481883A6A100ED0C98 /* ASWBXML.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ASWBXML.cpp; sourceTree = "<group>"; };
+		55A9EB491883A6A100ED0C98 /* ASWBXML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASWBXML.h; sourceTree = "<group>"; };
+		55A9EB4A1883A6A100ED0C98 /* ASWBXMLByteQueue.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ASWBXMLByteQueue.cpp; sourceTree = "<group>"; };
+		55A9EB4B1883A6A100ED0C98 /* ASWBXMLByteQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASWBXMLByteQueue.h; sourceTree = "<group>"; };
+		55A9EB4C1883A6A100ED0C98 /* ASWBXMLCodepage.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ASWBXMLCodepage.cpp; sourceTree = "<group>"; };
+		55A9EB4D1883A6A100ED0C98 /* ASWBXMLCodepage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASWBXMLCodepage.h; sourceTree = "<group>"; };
+		55A9EB4F1883A6A100ED0C98 /* tinystr.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tinystr.cpp; sourceTree = "<group>"; };
+		55A9EB501883A6A100ED0C98 /* tinystr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tinystr.h; sourceTree = "<group>"; };
+		55A9EB511883A6A100ED0C98 /* tinyxml.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tinyxml.cpp; sourceTree = "<group>"; };
+		55A9EB521883A6A100ED0C98 /* tinyxml.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tinyxml.h; sourceTree = "<group>"; };
+		55A9EB531883A6A100ED0C98 /* tinyxmlerror.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tinyxmlerror.cpp; sourceTree = "<group>"; };
+		55A9EB541883A6A100ED0C98 /* tinyxmlparser.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tinyxmlparser.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		55A632F1180BF687005D5B63 /* Frameworks */ = {
+		55840FF11883AA6A00914DA7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				55A632FA180BF687005D5B63 /* CoreGraphics.framework in Frameworks */,
-				55A632FC180BF687005D5B63 /* UIKit.framework in Frameworks */,
-				55A632F8180BF687005D5B63 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		55A6330C180BF687005D5B63 /* Frameworks */ = {
+		55A9EAF61883A14900ED0C98 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				55A63311180BF687005D5B63 /* XCTest.framework in Frameworks */,
-				55A63313180BF687005D5B63 /* UIKit.framework in Frameworks */,
-				55A63312180BF687005D5B63 /* Foundation.framework in Frameworks */,
+				558410021883AA8400914DA7 /* libASWBXml-lib.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -102,8 +90,8 @@
 		55A632EB180BF687005D5B63 = {
 			isa = PBXGroup;
 			children = (
-				55A632FD180BF687005D5B63 /* ASWBXml */,
-				55A63316180BF687005D5B63 /* ASWBXmlTests */,
+				55A9EB451883A6A100ED0C98 /* ASWBXml */,
+				55A9EAFA1883A14900ED0C98 /* wbxml */,
 				55A632F6180BF687005D5B63 /* Frameworks */,
 				55A632F5180BF687005D5B63 /* Products */,
 			);
@@ -112,8 +100,8 @@
 		55A632F5180BF687005D5B63 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				55A632F4180BF687005D5B63 /* ASWBXml.app */,
-				55A6330F180BF687005D5B63 /* ASWBXmlTests.xctest */,
+				55A9EAF91883A14900ED0C98 /* wbxml */,
+				55840FF41883AA6A00914DA7 /* libASWBXml-lib.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -129,115 +117,91 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		55A632FD180BF687005D5B63 /* ASWBXml */ = {
+		55A9EAFA1883A14900ED0C98 /* wbxml */ = {
 			isa = PBXGroup;
 			children = (
-				55A6335E180E97A6005D5B63 /* ASWBXml */,
-				55A63337180BF724005D5B63 /* FMWbxml.h */,
-				55A63338180BF724005D5B63 /* FMWbxml.mm */,
-				55A63306180BF687005D5B63 /* AppDelegate.h */,
-				55A63307180BF687005D5B63 /* AppDelegate.m */,
-				55A63309180BF687005D5B63 /* Images.xcassets */,
-				55A632FE180BF687005D5B63 /* Supporting Files */,
+				55A9EAFB1883A14900ED0C98 /* main.cpp */,
+				55A9EAFD1883A14900ED0C98 /* wbxml.1 */,
+			);
+			path = wbxml;
+			sourceTree = "<group>";
+		};
+		55A9EB451883A6A100ED0C98 /* ASWBXml */ = {
+			isa = PBXGroup;
+			children = (
+				55A9EB461883A6A100ED0C98 /* ASUtils.cpp */,
+				55A9EB471883A6A100ED0C98 /* ASUtils.h */,
+				55A9EB481883A6A100ED0C98 /* ASWBXML.cpp */,
+				55A9EB491883A6A100ED0C98 /* ASWBXML.h */,
+				55A9EB4A1883A6A100ED0C98 /* ASWBXMLByteQueue.cpp */,
+				55A9EB4B1883A6A100ED0C98 /* ASWBXMLByteQueue.h */,
+				55A9EB4C1883A6A100ED0C98 /* ASWBXMLCodepage.cpp */,
+				55A9EB4D1883A6A100ED0C98 /* ASWBXMLCodepage.h */,
+				55A9EB4E1883A6A100ED0C98 /* tinyxml */,
 			);
 			path = ASWBXml;
 			sourceTree = "<group>";
 		};
-		55A632FE180BF687005D5B63 /* Supporting Files */ = {
+		55A9EB4E1883A6A100ED0C98 /* tinyxml */ = {
 			isa = PBXGroup;
 			children = (
-				55A632FF180BF687005D5B63 /* ASWBXml-Info.plist */,
-				55A63300180BF687005D5B63 /* InfoPlist.strings */,
-				55A63303180BF687005D5B63 /* main.m */,
-				55A63305180BF687005D5B63 /* ASWBXml-Prefix.pch */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		55A63316180BF687005D5B63 /* ASWBXmlTests */ = {
-			isa = PBXGroup;
-			children = (
-				55A6331C180BF687005D5B63 /* ASWBXmlTests.m */,
-				55A63317180BF687005D5B63 /* Supporting Files */,
-			);
-			path = ASWBXmlTests;
-			sourceTree = "<group>";
-		};
-		55A63317180BF687005D5B63 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				55A63318180BF687005D5B63 /* ASWBXmlTests-Info.plist */,
-				55A63319180BF687005D5B63 /* InfoPlist.strings */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		55A6335E180E97A6005D5B63 /* ASWBXml */ = {
-			isa = PBXGroup;
-			children = (
-				55A6335F180E97A6005D5B63 /* ASUtils.cpp */,
-				55A63360180E97A6005D5B63 /* ASUtils.h */,
-				55A63361180E97A6005D5B63 /* ASWBXML.cpp */,
-				55A63362180E97A6005D5B63 /* ASWBXML.h */,
-				55A63363180E97A6005D5B63 /* ASWBXMLByteQueue.cpp */,
-				55A63364180E97A6005D5B63 /* ASWBXMLByteQueue.h */,
-				55A63365180E97A6005D5B63 /* ASWBXMLCodepage.cpp */,
-				55A63366180E97A6005D5B63 /* ASWBXMLCodepage.h */,
-				55A63367180E97A6005D5B63 /* tinyxml */,
-			);
-			path = ASWBXml;
-			sourceTree = "<group>";
-		};
-		55A63367180E97A6005D5B63 /* tinyxml */ = {
-			isa = PBXGroup;
-			children = (
-				55A63368180E97A6005D5B63 /* tinystr.cpp */,
-				55A63369180E97A6005D5B63 /* tinystr.h */,
-				55A6336A180E97A6005D5B63 /* tinyxml.cpp */,
-				55A6336B180E97A6005D5B63 /* tinyxml.h */,
-				55A6336C180E97A6005D5B63 /* tinyxmlerror.cpp */,
-				55A6336D180E97A6005D5B63 /* tinyxmlparser.cpp */,
+				55A9EB4F1883A6A100ED0C98 /* tinystr.cpp */,
+				55A9EB501883A6A100ED0C98 /* tinystr.h */,
+				55A9EB511883A6A100ED0C98 /* tinyxml.cpp */,
+				55A9EB521883A6A100ED0C98 /* tinyxml.h */,
+				55A9EB531883A6A100ED0C98 /* tinyxmlerror.cpp */,
+				55A9EB541883A6A100ED0C98 /* tinyxmlparser.cpp */,
 			);
 			path = tinyxml;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
-/* Begin PBXNativeTarget section */
-		55A632F3180BF687005D5B63 /* ASWBXml */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 55A63320180BF687005D5B63 /* Build configuration list for PBXNativeTarget "ASWBXml" */;
-			buildPhases = (
-				55A632F0180BF687005D5B63 /* Sources */,
-				55A632F1180BF687005D5B63 /* Frameworks */,
-				55A632F2180BF687005D5B63 /* Resources */,
+/* Begin PBXHeadersBuildPhase section */
+		55840FF21883AA6A00914DA7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = ASWBXml;
-			productName = ASWBXml;
-			productReference = 55A632F4180BF687005D5B63 /* ASWBXml.app */;
-			productType = "com.apple.product-type.application";
+			runOnlyForDeploymentPostprocessing = 0;
 		};
-		55A6330E180BF687005D5B63 /* ASWBXmlTests */ = {
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		55840FF31883AA6A00914DA7 /* ASWBXml-lib */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 55A63323180BF687005D5B63 /* Build configuration list for PBXNativeTarget "ASWBXmlTests" */;
+			buildConfigurationList = 55840FF51883AA6A00914DA7 /* Build configuration list for PBXNativeTarget "ASWBXml-lib" */;
 			buildPhases = (
-				55A6330B180BF687005D5B63 /* Sources */,
-				55A6330C180BF687005D5B63 /* Frameworks */,
-				55A6330D180BF687005D5B63 /* Resources */,
+				55840FF01883AA6A00914DA7 /* Sources */,
+				55840FF11883AA6A00914DA7 /* Frameworks */,
+				55840FF21883AA6A00914DA7 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				55A63315180BF687005D5B63 /* PBXTargetDependency */,
 			);
-			name = ASWBXmlTests;
-			productName = ASWBXmlTests;
-			productReference = 55A6330F180BF687005D5B63 /* ASWBXmlTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
+			name = "ASWBXml-lib";
+			productName = "ASWBXml-lib";
+			productReference = 55840FF41883AA6A00914DA7 /* libASWBXml-lib.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		55A9EAF81883A14900ED0C98 /* wbxml */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55A9EAFF1883A14A00ED0C98 /* Build configuration list for PBXNativeTarget "wbxml" */;
+			buildPhases = (
+				55A9EAF51883A14900ED0C98 /* Sources */,
+				55A9EAF61883A14900ED0C98 /* Frameworks */,
+				55A9EAF71883A14900ED0C98 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				558410011883AA8100914DA7 /* PBXTargetDependency */,
+			);
+			name = wbxml;
+			productName = wbxml;
+			productReference = 55A9EAF91883A14900ED0C98 /* wbxml */;
+			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
@@ -247,11 +211,6 @@
 			attributes = {
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = tencent;
-				TargetAttributes = {
-					55A6330E180BF687005D5B63 = {
-						TestTargetID = 55A632F3180BF687005D5B63;
-					};
-				};
 			};
 			buildConfigurationList = 55A632EF180BF687005D5B63 /* Build configuration list for PBXProject "ASWBXml" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -265,89 +224,74 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				55A632F3180BF687005D5B63 /* ASWBXml */,
-				55A6330E180BF687005D5B63 /* ASWBXmlTests */,
+				55A9EAF81883A14900ED0C98 /* wbxml */,
+				55840FF31883AA6A00914DA7 /* ASWBXml-lib */,
 			);
 		};
 /* End PBXProject section */
 
-/* Begin PBXResourcesBuildPhase section */
-		55A632F2180BF687005D5B63 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				55A63302180BF687005D5B63 /* InfoPlist.strings in Resources */,
-				55A6330A180BF687005D5B63 /* Images.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		55A6330D180BF687005D5B63 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				55A6331B180BF687005D5B63 /* InfoPlist.strings in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXResourcesBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
-		55A632F0180BF687005D5B63 /* Sources */ = {
+		55840FF01883AA6A00914DA7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				55A6336F180E97A6005D5B63 /* ASWBXML.cpp in Sources */,
-				55A63375180E97A6005D5B63 /* tinyxmlparser.cpp in Sources */,
-				55A63373180E97A6005D5B63 /* tinyxml.cpp in Sources */,
-				55A63372180E97A6005D5B63 /* tinystr.cpp in Sources */,
-				55A63308180BF687005D5B63 /* AppDelegate.m in Sources */,
-				55A63370180E97A6005D5B63 /* ASWBXMLByteQueue.cpp in Sources */,
-				55A6336E180E97A6005D5B63 /* ASUtils.cpp in Sources */,
-				55A6333E180BF724005D5B63 /* FMWbxml.mm in Sources */,
-				55A63371180E97A6005D5B63 /* ASWBXMLCodepage.cpp in Sources */,
-				55A63374180E97A6005D5B63 /* tinyxmlerror.cpp in Sources */,
-				55A63304180BF687005D5B63 /* main.m in Sources */,
+				55840FF81883AA7900914DA7 /* ASUtils.cpp in Sources */,
+				55840FF91883AA7900914DA7 /* ASWBXML.cpp in Sources */,
+				55840FFA1883AA7900914DA7 /* ASWBXMLByteQueue.cpp in Sources */,
+				55840FFB1883AA7900914DA7 /* ASWBXMLCodepage.cpp in Sources */,
+				55840FFC1883AA7900914DA7 /* tinystr.cpp in Sources */,
+				55840FFD1883AA7900914DA7 /* tinyxml.cpp in Sources */,
+				55840FFE1883AA7900914DA7 /* tinyxmlerror.cpp in Sources */,
+				55840FFF1883AA7900914DA7 /* tinyxmlparser.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		55A6330B180BF687005D5B63 /* Sources */ = {
+		55A9EAF51883A14900ED0C98 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				55A6331D180BF687005D5B63 /* ASWBXmlTests.m in Sources */,
+				55A9EAFC1883A14900ED0C98 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		55A63315180BF687005D5B63 /* PBXTargetDependency */ = {
+		558410011883AA8100914DA7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 55A632F3180BF687005D5B63 /* ASWBXml */;
-			targetProxy = 55A63314180BF687005D5B63 /* PBXContainerItemProxy */;
+			target = 55840FF31883AA6A00914DA7 /* ASWBXml-lib */;
+			targetProxy = 558410001883AA8100914DA7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
-/* Begin PBXVariantGroup section */
-		55A63300180BF687005D5B63 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				55A63301180BF687005D5B63 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		55A63319180BF687005D5B63 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				55A6331A180BF687005D5B63 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
 /* Begin XCBuildConfiguration section */
+		55840FF61883AA6A00914DA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EXECUTABLE_PREFIX = lib;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		55840FF71883AA6A00914DA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				EXECUTABLE_PREFIX = lib;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
 		55A6331E180BF687005D5B63 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -422,77 +366,43 @@
 			};
 			name = Release;
 		};
-		55A63321180BF687005D5B63 /* Debug */ = {
+		55A9EB001883A14A00ED0C98 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ASWBXml/ASWBXml-Prefix.pch";
-				INFOPLIST_FILE = "ASWBXml/ASWBXml-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = app;
-			};
-			name = Debug;
-		};
-		55A63322180BF687005D5B63 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ASWBXml/ASWBXml-Prefix.pch";
-				INFOPLIST_FILE = "ASWBXml/ASWBXml-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = app;
-			};
-			name = Release;
-		};
-		55A63324180BF687005D5B63 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ASWBXml.app/ASWBXml";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ASWBXml/ASWBXml-Prefix.pch";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "ASWBXmlTests/ASWBXmlTests-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
+				SDKROOT = macosx;
 			};
 			name = Debug;
 		};
-		55A63325180BF687005D5B63 /* Release */ = {
+		55A9EB011883A14A00ED0C98 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ASWBXml.app/ASWBXml";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ASWBXml/ASWBXml-Prefix.pch";
-				INFOPLIST_FILE = "ASWBXmlTests/ASWBXmlTests-Info.plist";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
+				SDKROOT = macosx;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		55840FF51883AA6A00914DA7 /* Build configuration list for PBXNativeTarget "ASWBXml-lib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55840FF61883AA6A00914DA7 /* Debug */,
+				55840FF71883AA6A00914DA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		55A632EF180BF687005D5B63 /* Build configuration list for PBXProject "ASWBXml" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -502,20 +412,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		55A63320180BF687005D5B63 /* Build configuration list for PBXNativeTarget "ASWBXml" */ = {
+		55A9EAFF1883A14A00ED0C98 /* Build configuration list for PBXNativeTarget "wbxml" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				55A63321180BF687005D5B63 /* Debug */,
-				55A63322180BF687005D5B63 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		55A63323180BF687005D5B63 /* Build configuration list for PBXNativeTarget "ASWBXmlTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				55A63324180BF687005D5B63 /* Debug */,
-				55A63325180BF687005D5B63 /* Release */,
+				55A9EB001883A14A00ED0C98 /* Debug */,
+				55A9EB011883A14A00ED0C98 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
