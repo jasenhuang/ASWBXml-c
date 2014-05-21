@@ -819,14 +819,14 @@ std::string CASWBXML::WB2XML(unsigned char* byteWBXML ,unsigned int len)
     delete decoder;
     return xml;
 }
-void CASWBXML::XML2WB(std::string& strXML,unsigned char ** bytes ,unsigned int* len)
+void CASWBXML::XML2WB(const std::string& strXML,unsigned char ** bytes ,unsigned int* len)
 {
     ASWBXML::CASWBXML * encoder = new ASWBXML::CASWBXML();
     encoder->LoadXml(strXML);
     encoder->GetBytes(bytes, len);
     delete encoder;
 }
-void CASWBXML::LoadXmlFromFile(std::string &strFilename)
+void CASWBXML::LoadXmlFromFile(const std::string &strFilename)
 {
     if (NULL != xmlDoc){
         delete xmlDoc;
@@ -834,7 +834,7 @@ void CASWBXML::LoadXmlFromFile(std::string &strFilename)
     xmlDoc = new TiXmlDocument();
     xmlDoc->LoadFile(strFilename.c_str());
 }
-void CASWBXML::LoadXml(std::string& strXML)
+void CASWBXML::LoadXml(const std::string& strXML)
 {
     if (NULL != xmlDoc){
         delete xmlDoc;
