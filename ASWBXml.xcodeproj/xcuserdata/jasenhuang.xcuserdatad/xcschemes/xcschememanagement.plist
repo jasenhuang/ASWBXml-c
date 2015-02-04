@@ -9,19 +9,49 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
-		<key>ASWBXml-lib.xcscheme</key>
-		<dict>
-			<key>orderHint</key>
-			<integer>1</integer>
-		</dict>
-		<key>wbxml.xcscheme</key>
+		<key>ASWBXml.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>ASWBXmlTests.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>wbxml.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>553118B71A4955C3003A640D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>553118C11A4955C4003A640D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>553118EF1A4956B5003A640D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>553118FD1A495730003A640D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>553119071A495730003A640D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>553A0F101859BD980049A6A3</key>
 		<dict>
 			<key>primary</key>
